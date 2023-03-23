@@ -1,4 +1,7 @@
 package com.example.FileTransferApplication;
+
+import lombok.Value;
+
 public class TransferRequest {
 
     private String bucketName;
