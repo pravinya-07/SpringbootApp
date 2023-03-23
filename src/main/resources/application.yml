@@ -1,0 +1,12 @@
+server:
+  port: 8080
+aws:
+  s3:
+    endpoint: http://localhost:4566
+    accessKeyId: 7387057044
+    secretAccessKey: Pass@9049
+
+  file transfer:
+  bucketName: uploads
+  sourceFolder: source/
+  destinationFolder: destination/

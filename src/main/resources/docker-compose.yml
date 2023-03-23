@@ -1,0 +1,9 @@
+version: '3'
+services:
+  localstack:
+    image: localstack/localstack:latest
+    ports:
+      - '4566-4583:4566-4583'
+      - '8080:8080'
+    volumes:
+      - './localstack:/tmp/localstack'
